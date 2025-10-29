@@ -1,12 +1,16 @@
 # Desafio de Refatoração de Código — Engenharia de Software II 
-
-## Contexto Acadêmico
+## Contexto 
 
 Este repositório foi desenvolvido como parte da disciplina **DEC7130 – Engenharia de Software II**, do curso de **Tecnologias da Informação e Comunicação (TIC)** da **Universidade Federal de Santa Catarina – Campus Araranguá**.  
 
 O trabalho teve como objetivo **identificar, analisar e corrigir diferentes tipos de *code smells*** (maus odores de código), aplicando técnicas de **refatoração** para melhorar a clareza, modularidade e manutenção do código, conforme os princípios da **programação orientada a objetos** e das boas práticas de **engenharia de software**.
 
 Todos os exemplos foram implementados em **Python**, dentro do contexto temático do **futebol**, com foco em situações que envolvem o **Criciúma Esporte Clube**, buscando tornar os exemplos didáticos.
+
+
+<p align="center">
+  <img src="https://www.criciuma.com.br/includes/inc_nav/imgs/brand.png" width="100" alt="Criciúma E.C.">
+</p>
 
 ---
 
