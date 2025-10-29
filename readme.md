@@ -1,6 +1,6 @@
-# 🧩 Desafio de Refatoração de Código — Engenharia de Software II
+# Desafio de Refatoração de Código — Engenharia de Software II 
 
-## 📘 Contexto Acadêmico
+## Contexto Acadêmico
 
 Este repositório foi desenvolvido como parte da disciplina **DEC7130 – Engenharia de Software II**, do curso de **Tecnologias da Informação e Comunicação (TIC)** da **Universidade Federal de Santa Catarina – Campus Araranguá**.  
 
@@ -10,7 +10,7 @@ Todos os exemplos foram implementados em **Python**, dentro do contexto temátic
 
 ---
 
-## ⚙️ Objetivos
+## Objetivos
 
 - Identificar *code smells* em exemplos de código simples e funcionais.  
 - Aplicar as técnicas de refatoração adequadas para cada categoria.  
@@ -19,11 +19,11 @@ Todos os exemplos foram implementados em **Python**, dentro do contexto temátic
 
 ---
 
-## 🧠 Categorias de Code Smells
+## Categorias de Code Smells
 
 A seguir estão descritas as cinco categorias abordadas neste trabalho, conforme a classificação proposta por **Refactoring Guru (2025)**.
 
-### 🧱 1. Bloaters
+### 1. Bloaters
 
 Os *Bloaters* surgem quando o código cresce em tamanho e complexidade, tornando-se difícil de compreender e manter.  
 No exemplo, foi identificado o *Long Method*, onde uma única função acumulava diversas responsabilidades (entrada, processamento e exibição de dados).  
@@ -32,7 +32,7 @@ A refatoração aplicada foi **Extract Method**, que dividiu o método em partes
 
 ---
 
-### 🧩 2. Object-Orientation Abusers
+### 2. Object-Orientation Abusers
 
 Essa categoria representa o mau uso dos princípios da orientação a objetos.  
 O exemplo escolhido foi o *Switch Statements*, em que uma estrutura condicional controlava o comportamento de jogadores de diferentes posições.  
@@ -41,7 +41,7 @@ Foi aplicada a refatoração **Replace Conditional with Polymorphism**, criando 
 
 ---
 
-### 🔄 3. Change Preventers
+### 3. Change Preventers
 
 Os *Change Preventers* indicam estruturas que dificultam a modificação e evolução do sistema.  
 No caso estudado, observou-se o *Divergent Change*, em que uma mesma classe possuía múltiplas responsabilidades (gols, cartões e público).  
@@ -50,7 +50,7 @@ A refatoração **Extract Class** foi utilizada para separar as responsabilidade
 
 ---
 
-### 🗑️ 4. Dispensables
+### 4. Dispensables
 
 Os *Dispensables* englobam elementos desnecessários no código, como duplicações, classes ociosas ou código morto (*Dead Code*).  
 O exemplo utilizou um sistema de gerenciamento de treinos do Criciúma, no qual métodos não utilizados foram mantidos sem propósito.  
@@ -59,7 +59,7 @@ Aplicou-se a refatoração **Remove Dead Code**, eliminando funções redundante
 
 ---
 
-### 🤝 5. Couplers
+### 5. Couplers
 
 Os *Couplers* surgem quando há acoplamento excessivo entre classes, resultando em dependências fortes e baixa modularidade.  
 O exemplo de *Feature Envy* mostrou uma classe `Transferencia` que manipulava diretamente os atributos de `Jogador`.  
@@ -68,7 +68,7 @@ A refatoração **Move Method** transferiu a responsabilidade para a classe corr
 
 ---
 
-## 🧰 Técnicas de Refatoração Utilizadas
+## Técnicas de Refatoração Utilizadas
 
 - **Extract Method** → divisão de métodos longos em partes menores.  
 - **Replace Conditional with Polymorphism** → substituição de condicionais por hierarquia de classes.  
